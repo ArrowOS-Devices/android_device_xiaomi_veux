@@ -7,9 +7,6 @@
 # Shipping API Level
 PRODUCT_SHIPPING_API_LEVEL := 30    
 
-# APEX's
-$(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
-
 # GSI Keys
 $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 
