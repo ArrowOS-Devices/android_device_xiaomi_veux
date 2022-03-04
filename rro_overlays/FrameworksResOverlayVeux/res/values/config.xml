@@ -672,4 +672,8 @@
              <item>restart_bootloader</item>
              <item>restart_fastboot</item>
           </string-array>
+
+     <!-- Package name of a telephony-related system app, such as an IMS service.
+         Exempted from privacy indicators. -->
+    <string name="config_systemTelephonyPackage" translatable="false">com.qualcomm.qti.cne</string>
 </resources>
