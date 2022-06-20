@@ -5,12 +5,9 @@
 #
 
 LOCAL_PATH := $(call my-dir)
-
-ifneq ($(filter peux veux,$(TARGET_DEVICE)),)
-
-include $(call all-makefiles-under,$(LOCAL_PATH))
-
-include $(CLEAR_VARS)
+ifeq ($(TARGET_DEVICE),veux)
+subdir_makefiles=$(call first-makefiles-under,$(LOCAL_PATH))
+$(foreach mk,$(subdir_makefiles),$(info including $(mk) ...)$(eval include $(mk)))
 
 FIRMWARE_MOUNT_POINT := $(TARGET_OUT_VENDOR)/firmware_mnt
 $(FIRMWARE_MOUNT_POINT): $(LOCAL_INSTALLED_MODULE)

@@ -1,0 +1,23 @@
+[
+  {
+    "repository": "android_device_xiaomi_veux-kernel",
+    "target_path": "device/xiaomi/veux-kernel"
+  },
+  {
+    "remote": "gitlab",
+    "repository": "arrowos-project/android_vendor_xiaomi_veux",
+    "target_path": "vendor/xiaomi/veux"
+  },
+  {
+    "repository": "android_kernel_xiaomi_lisa",
+    "target_path": "kernel/xiaomi/sm6375"
+  },
+  {
+    "repository": "android_packages_apps_GCamGOPrebuilt",
+    "target_path": "packages/apps/GCamGOPrebuilt"
+  },
+  {
+    "repository": "android_hardware_xiaomi",
+    "target_path": "hardware/xiaomi"
+  }
+]
