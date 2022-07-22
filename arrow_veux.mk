@@ -28,4 +28,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 BUILD_FINGERPRINT := Redmi/veux_global/veux:11/RKQ1.211001.001/V13.0.10.0.RKCMIXM:user/release-keys
 
 # ArrowOS additions
-DEVICE_MAINTAINER := kubersharma001
+DEVICE_MAINTAINER := Bauuuuu, kubersharma001
