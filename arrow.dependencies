@@ -4,8 +4,7 @@
     "target_path": "device/xiaomi/veux-kernel"
   },
   {
-    "remote": "gitlab",
-    "repository": "arrowos-project/android_vendor_xiaomi_veux",
+    "repository": "android_vendor_xiaomi_veux",
     "target_path": "vendor/xiaomi/veux"
   },
   {
