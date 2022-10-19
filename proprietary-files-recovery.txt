@@ -1,0 +1,3 @@
+# Touchscreen firmware
+vendor/firmware/goodix_cfg_group.bin:recovery/root/vendor/firmware/goodix_cfg_group.bin
+vendor/firmware/goodix_firmware.bin:recovery/root/vendor/firmware/goodix_firmware.bin
