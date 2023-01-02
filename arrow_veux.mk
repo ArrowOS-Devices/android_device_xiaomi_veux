@@ -28,4 +28,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 BUILD_FINGERPRINT := POCO/veux_p_global/veux:12/SKQ1.211006.001/V13.0.2.0.SKCMIXM:user/release-keys
 
 # ArrowOS additions
-DEVICE_MAINTAINER := Bauuuuu, kubersharma001
+DEVICE_MAINTAINER := K001droid
